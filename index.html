@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Sign Up </title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <body>
-        <header id="header">
-            <h1> SAGEXML SIGN UP</h1>
-            <p id="sm">By Sage x</p>
-        </header>
-        <section class="form">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign Up </title>
+    <!-- load external css in the head tag -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    
+  <body>
+    <header class="header">
+      <h1 class="title">SAGEXML SIGN UP</h1>
+      <p class="sub-title">By Sage x</p>
+    </header>
+        
+    <section class="layout">
+      <div class="form">
         <h2>Create your account now</h2>
-        <div id="layout">
-         <form>
-            <label for="name">Full name</label><br>
-            <input type="text" name="fullnamme" placeholder="  your full name" class="mytext" required>
-            <p></p> 
-            <label for="email">Email</label><br>
-            <input type="text" name="email" placeholder="  your email" class="mytext" required>
-            <p></p>
-            <label for="password">Password</label><br>
-            <input type="password" name="" placeholder="  password" class="mytext" required=>
-        </Form>
-        <p></p>
+        <form>
+          <label for="name">Full name</label>
+          <input type="text" name="fullnamme" placeholder="  your full name" class="mytext" required> 
+          <label for="email">Email</label>
+          <input type="text" name="email" placeholder="  your email" class="mytext" required>
+          <label for="password">Password</label>
+          <input type="password" name="" placeholder="  password" class="mytext" required=>
+        </form>
         <button type="submit" class="btn"> GET STARTED FOR FREE</button>
-        <P id="ftr">       Already have an account? <a href="#">Sign in.</a></P>
-        </div>
+        <p class="text-center">Already have an account? <a href="#">Sign in.</a></p>
+      </div>
     </section>
-    </body>
+  </body>
 </html> 
