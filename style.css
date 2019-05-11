@@ -57,7 +57,7 @@ h2{
     font-size: 1.1em;
 }
 
-/* #header{
+#header{
     font-family: "segoe print";
     font-weight: bold;
     color: white;
@@ -67,7 +67,7 @@ h2{
     padding-left: 40px;
     margin-top:-9px;
     margin-left: -9px;
-    margin-right: -9px; */
+    margin-right: -9px;
 
 }
 #sm{
