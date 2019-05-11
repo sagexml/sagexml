@@ -1,77 +1,97 @@
-a{
-    text-decoration:none;
-    color:crimson;
-}
-.form{
-    border: solid 1px white;
-    margin-top: 12em;
-    display: inline-block;
-    background-color: white;
-    padding: 20px 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 7px;
-    font-weight: bold;
-    color:#676666;
-
-}
-body,html{
-    background-color: #d3e4e6;
-    text-align: center;
-}
-body>*{
-    text-align: left;
-}
-.mytext{
-    width:21.9em;
-    height:2.8em;
-margin-top: -0.2em;
-border-radius: 5px;
-font-size:0.9em;
-
-
-}
-.btn{
-    font-family: arial;
-      width: 21.9em;
-      height: 3.4em;
-      margin-top: 1.25em;
-      background-color:crimson;
-      color:white;
-      border-radius: 20px;
-      font-size: 1em;
-      padding: 20px,0px;
-      font-weight: bold;
-      border: 1px solid crimson;
-}
-#layout{
-    margin-top:2.5em;
-    line-height: 3;
-    
-}
-h2{
-    text-align: center
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-#ftr{
-    white-space: pre-wrap;
-    font-size: 1.1em;
+body {
+  background-color: #d3e4e6;
+  font: 400 16px/1.5 Helvetica, sans-serif;
 }
 
-#header{
-    font-family:candara;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    margin-top:-0.56em;
-    margin-left: -0.56em;
-    margin-right: -0.56em;
-   position: fixed;
-   overflow: hidden;
-   top:0;
-   width:100%;
+a {
+  text-decoration: none;
+  color: crimson;
 }
-#sm{
-    margin-top:-1.57em;
+
+.header {
+  font-family: candara;
+  color: white;
+  background-color: black;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
+.header .title {
+  font-size: 20px;
+}
+
+.header .sub-title {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.layout {
+  padding: 0 16px;
+}
+
+.form {
+  border: solid 1px white;
+  margin: 10em auto 2em;
+  display: block;
+  max-width: 420px;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 7px;
+  font-weight: bold;
+  color:#676666;
+}
+
+.form h2 {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  font-size: 22px;
+}
+
+label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: .65em 1em;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border-radius: 3px;
+}
+
+.btn {
+  font-family: arial;
+  width: 100%;
+  cursor: pointer;
+  padding: 1em;
+  text-align: center;
+  margin: 1.2em 0;
+  background-color:crimson;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid crimson;
+}
+
+.text-center {
+  text-align: center;
+}
+
