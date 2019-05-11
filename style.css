@@ -4,7 +4,7 @@ a{
 }
 .form{
     border: solid 1px white;
-    margin-top: 3.1em;
+    margin-top: 12em;
     display: inline-block;
     background-color: white;
     padding: 20px 50px;
@@ -68,7 +68,10 @@ h2{
     margin-top:-0.56em;
     margin-left: -0.56em;
     margin-right: -0.56em;
-
+   position: fixed;
+   overflow: hidden;
+   top:0;
+   width:100%;
 }
 #sm{
     margin-top:-1.57em;
